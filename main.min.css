@@ -1,0 +1,132 @@
+.hero_title a,
+.tel {
+  background-color: #00bafc;
+  color: #fff;
+}
+@font-face {
+  font-family: Quick;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Quick;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header,
+main {
+  width: 100%;
+  height: auto;
+}
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.nav_ul {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  width: 60%;
+  padding-top: 0.5rem;
+}
+.nav_ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.nav_ul li a:hover {
+  color: red;
+}
+.tel {
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+}
+.pcs {
+  padding: 1.3rem;
+}
+.hero {
+  padding-top: 5rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 45% 85px 45%;
+  grid-template-columns: 45% 45%;
+  grid-gap: 85px;
+}
+.hero_title {
+  width: 100%;
+  padding-top: 3rem;
+}
+.hero_title h2 {
+  font-size: 34px;
+  width: 90%;
+  padding-bottom: 1rem;
+}
+.hero_title p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-bottom: 1.5rem;
+}
+.hero_title a {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.hero_title a:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.xizmatlar {
+  padding: 5rem;
+}
+.card h3,
+.xizmatlar_title {
+  padding-top: 1rem;
+}
+.xizmatlar_title {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 25px;
+}
+.xizmatlar_title p {
+  padding: 1rem;
+}
+.xizmatlar_cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+.card {
+  -webkit-box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+  padding: 2rem;
+}
+.card p {
+  padding-top: 10px;
+}
